@@ -1,0 +1,15 @@
+D:\github\xamarinTest\xamarinTest\bin\Debug\netstandard2.0\xamarinTest.deps.json
+D:\github\xamarinTest\xamarinTest\bin\Debug\netstandard2.0\xamarinTest.dll
+D:\github\xamarinTest\xamarinTest\bin\Debug\netstandard2.0\ref\xamarinTest.dll
+D:\github\xamarinTest\xamarinTest\bin\Debug\netstandard2.0\xamarinTest.pdb
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\xamarinTest.AssemblyInfoInputs.cache
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\xamarinTest.AssemblyInfo.cs
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\xamarinTest.csproj.CoreCompileInputs.cache
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\XamlC.stamp
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\xamarinTest.dll
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\ref\xamarinTest.dll
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\xamarinTest.pdb
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\xamarinTest.csprojAssemblyReference.cache
+D:\github\xamarinTest\xamarinTest\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs

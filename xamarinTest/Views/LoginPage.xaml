@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
+             x:Class="xamarinTest.Views.LoginPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#F5F5F5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="400"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <forms:AnimationView x:Name="animationView" 
+                                  Animation="circlewave.json" 
+                                  AutoPlay="true" 
+                                  VerticalOptions="FillAndExpand" 
+                                  HorizontalOptions="FillAndExpand" />
+            <Frame BackgroundColor="#F5F5F5" 
+                   HasShadow="false" 
+                   WidthRequest="100" 
+                   HeightRequest="100"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   CornerRadius="40"
+                   Padding="0">
+                <Label Text="问卷调查" FontSize="24" TextColor="#FE3A3B" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </Frame>
+            <StackLayout Grid.Row="1" BackgroundColor="White" HeightRequest="400" VerticalOptions="End" Spacing="15">
+                <StackLayout Spacing="20">
+                    <Entry Placeholder="用户名/身份证号" Text="{Binding UserName}" Margin="80,30,80,0" 
+                           BackgroundColor="Transparent" PlaceholderColor="#a1a1a1" 
+                           VerticalTextAlignment="Center"   ClearButtonVisibility="WhileEditing"  FontSize="16" ></Entry>
+                    <Entry Placeholder="密码" IsPassword="True" Text="{Binding Password}" Margin="80,0,80,0" 
+                           BackgroundColor="Transparent" PlaceholderColor="#a1a1a1"  
+                           ClearButtonVisibility="WhileEditing" Keyboard="Chat" FontSize="16"></Entry>
+                </StackLayout>
+                <Button Text="登    录" 
+                        WidthRequest="{OnPlatform 250,iOS=300}" 
+                        HeightRequest="50" 
+                        BackgroundColor="#F5F5F5" 
+                        BorderColor="#FE3A3B"
+                        BorderWidth="1" 
+                        HorizontalOptions="Center" 
+                        CornerRadius="25" 
+                        TextColor="#FE3A3B"/>
+                <Button Text="注    册"
+                        WidthRequest="{OnPlatform 250,iOS=300}"
+                        HeightRequest="50" 
+                        BackgroundColor="#F5F5F5" 
+                        BorderColor="#FE3A3B"
+                        BorderWidth="1" 
+                        HorizontalOptions="Center" 
+                        CornerRadius="25" 
+                        TextColor="#FE3A3B"/>
+            </StackLayout>
+            <Grid Grid.Row="2" Margin="0,30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0"></Label>
+                <Label Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center">2021 © 康普科技</Label>
+                <Label Grid.Column="2"></Label>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
